@@ -1,0 +1,28 @@
+main {
+display: flex;
+border: 2px solid black;
+}
+
+.caixa {
+    flex: 1;
+    height: 120px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.caixa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#pagina1 {
+    background-color: lightgray;
+    color: black;
+}
+
+#pagina1 .caixa {
+    background-color: dimgray;
+    color: white;
+}
+
